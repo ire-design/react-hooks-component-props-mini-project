@@ -2,6 +2,7 @@ import React from 'react';
 import Article from './Article';
 
 function ArticleList({ posts }) {
+
   return (
     <main>
       {posts.map((post) => (
@@ -15,6 +16,7 @@ function ArticleList({ posts }) {
       ))}
     </main>
   );
+  
 }
 
 export default ArticleList;
